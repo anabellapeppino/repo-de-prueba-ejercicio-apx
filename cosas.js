@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.cosas = void 0;
-// Creamos el módulo cosas
+// Creamos el módulo coas
 exports.cosas = {
     // Creamos la colección de objetos
     collection: [
