@@ -1,3 +1,8 @@
-const {getAll, getById} = require ('./cosas')
+import { cosas } from './cosas';
 
-function main () {}
+function main () {
+console.log(cosas.getAll()),
+console.log(cosas.getById(1))
+}
+
+main()

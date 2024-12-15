@@ -6,7 +6,7 @@ interface Cosas {
 }
 
 // Creamos el módulo cosas
-const cosas = {
+export const cosas = {
   // Creamos la colección de objetos
   collection: [
     { id: 1, name: "Objeto 1", description: "Descripción del objeto 1" },
@@ -24,5 +24,3 @@ const cosas = {
     return this.collection.find((obj) => obj.id === id)
   },
 };
-
-module.exports = cosas;
